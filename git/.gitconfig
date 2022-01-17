@@ -1,0 +1,22 @@
+[user]
+    name = Nabarun Pal
+    email = pal.nabarun95@gmail.com
+    signingkey = 5766AE4828845256325BDA6E611D5079D826B150
+
+[commit]
+    gpgsign = true
+
+[core]
+    editor = nvim
+
+[format]
+    signoff = true
+
+[alias]
+    c = commit -s
+
+[http]
+	cookiefile = /home/nabarun/.gitcookies
+
+[init]
+	defaultBranch = main
