@@ -26,6 +26,7 @@ cargo install starship
 cargo install exa
 cargo install bat
 cargo install ripgrep
+cargo install delta
 
 # Setup ZSH and OhMyZSH
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
