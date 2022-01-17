@@ -1,0 +1,12 @@
+dracula-theme.theme-dracula
+eamodio.gitlens
+GitHub.vscode-pull-request-github
+golang.go
+hashicorp.terraform
+jdinhlife.gruvbox
+mhutchie.git-graph
+ms-python.python
+ms-python.vscode-pylance
+ms-toolsai.jupyter
+sainnhe.gruvbox-material
+vscode-icons-team.vscode-icons

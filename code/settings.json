@@ -1,0 +1,20 @@
+{
+    "workbench.colorTheme": "Dracula",
+    "window.menuBarVisibility": "toggle",
+    "editor.fontLigatures": true,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    "editor.formatOnSave": true,
+    "[html]": {
+        "editor.formatOnSave": false
+    },
+    "editor.formatOnPaste": true,
+    "editor.fontFamily": "'CaskaydiaCove Nerd Font', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.definitionLinkOpensInPeek": true,
+    "workbench.sideBar.location": "left",
+    // "editor.lineNumbers": "relative",
+    "go.toolsManagement.autoUpdate": true,
+    "keyboard.dispatch": "keyCode",
+    "telemetry.telemetryLevel": "off",
+}
