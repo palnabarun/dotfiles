@@ -1,0 +1,58 @@
+# Add brew casks
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+
+# Install brew packages
+brew "gnu-sed"
+brew "coreutils"
+brew "moreutils"
+brew "findutils"
+brew "stow"
+brew "gnu-tar"
+brew "gawk"
+brew "gnutls"
+brew "gnu-indent"
+brew "gnu-getopt"
+brew "grep"
+
+brew "zsh"
+brew "neovim"
+brew "tree"
+brew "wget"
+brew "python"
+brew "python3"
+brew "gnupg2"
+brew "pinentry-mac"
+brew "git"
+brew "gh"
+brew "tmux"
+brew "mosh"
+brew "htop"
+brew "jq"
+brew "httpie"
+brew "curl"
+brew "rust"
+brew "node"
+
+# reattach-to-user-namespace
+
+# Install brew GUI packages
+cask "1password"
+cask "spotify"
+cask "obsidian"
+cask "font-inconsolata"
+cask "font-fontawesome"
+cask "font-fira-code"
+cask "font-caskaydia-cove-nerd-font"
+cask "iterm2"
+cask "slack"
+cask "docker"
+cask "rectangle"
+cask "firefox-developer-edition"
+cask "zoom"
+cask "vmware-fusion"
+# cask "vscodium" ### DOESN'T HAVE DARWIN ARM64 PACKAGE
+cask "visual-studio-code"
+# cask "alacritty" ### DOESN'T SUPPORT APPLE SILICON YET
+cask "kitty"
