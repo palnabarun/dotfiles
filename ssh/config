@@ -1,0 +1,11 @@
+ServerAliveInterval 5
+
+Host github.com
+  Hostname github.com
+  IdentityFile ~/.ssh/palnabarun_ed
+  IdentitiesOnly Yes
+
+Host *
+  IdentityFile ~/.ssh/palnabarun_ed
+  UseKeychain Yes
+  AddKeysToAgent yes
