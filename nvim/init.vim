@@ -8,7 +8,7 @@
 
 call plug#begin()
   Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-  Plug 'neoclide/coc.nvim', { 'do': 'yarn install --frozen-lockfile' }
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'preservim/nerdtree'
   Plug 'Xuyuanp/nerdtree-git-plugin'
   Plug 'vim-airline/vim-airline'
