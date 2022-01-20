@@ -2,13 +2,13 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "6e168fbd833869d9e19b1b56a9d09cab2eb7e2c3"
+        "revision": "431ccd6eb4dfd1ecd66c54d01af36ada4038132d"
       },
       "homebrew/cask-fonts": {
         "revision": "5af8b108b1eaa635bc830268510b403593b8719a"
       },
       "homebrew/cask-versions": {
-        "revision": "7635684e3633e71221ef1d594f2cc0da9616d138"
+        "revision": "ee7a5f43fc76bc90539e236ef6cf4c3859d94de9"
       }
     },
     "brew": {
@@ -1400,6 +1400,12 @@
         "options": {
           "full_name": "google-cloud-sdk"
         }
+      },
+      "karabiner-elements": {
+        "version": "14.3.0",
+        "options": {
+          "full_name": "karabiner-elements"
+        }
       }
     }
   },
@@ -1408,7 +1414,7 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.3.11",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "7da0d3dfccf72a2808953d758738ac79faca1627",
+        "Homebrew/homebrew-core": "a0a6abc7eebc925f6279d84d52aafeec45508366",
         "CLT": "13.2.0.0.1.1638488800",
         "Xcode": "13.1",
         "macOS": "12.1"

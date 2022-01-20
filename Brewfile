@@ -58,3 +58,4 @@ cask "visual-studio-code"
 # cask "alacritty" ### DOESN'T SUPPORT APPLE SILICON YET
 cask "kitty"
 cask "google-cloud-sdk"
+cask "karabiner-elements"
