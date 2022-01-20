@@ -34,6 +34,7 @@ brew "httpie"
 brew "curl"
 brew "rust"
 brew "node"
+brew "crane"
 
 # reattach-to-user-namespace
 
@@ -56,3 +57,4 @@ cask "vmware-fusion"
 cask "visual-studio-code"
 # cask "alacritty" ### DOESN'T SUPPORT APPLE SILICON YET
 cask "kitty"
+cask "google-cloud-sdk"
