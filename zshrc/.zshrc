@@ -26,5 +26,8 @@ HISTSIZE=10000
 HISTFILESIZE=20000
 export HISTTIMEFORMAT="%y/%m/%d %T "
 
+bindkey "\e[1;3D" backward-word # ⌥←
+bindkey "\e[1;3C" forward-word # ⌥→
+
 # init starship
 eval "$(starship init zsh)"
