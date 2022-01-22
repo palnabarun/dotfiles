@@ -35,6 +35,7 @@ brew "curl"
 brew "rust"
 brew "node"
 brew "crane"
+brew "hugo"
 
 # reattach-to-user-namespace
 
