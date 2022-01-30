@@ -36,6 +36,9 @@ brew "rust"
 brew "node"
 brew "crane"
 brew "hugo"
+brew "kind"
+brew "lima"
+brew "cosign"
 
 # reattach-to-user-namespace
 
@@ -60,3 +63,4 @@ cask "visual-studio-code"
 cask "kitty"
 cask "google-cloud-sdk"
 cask "karabiner-elements"
+cask "signal"
