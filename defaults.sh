@@ -33,9 +33,9 @@ defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int
 sudo defaults write "com.apple.speech.recognition.AppleSpeechRecognition.prefs" StartSpeakableItems -bool false
 
 # Set computer name (as done via System Preferences → Sharing)
-sudo scutil --set ComputerName "zeus"
-sudo scutil --set HostName "zeus"
-sudo scutil --set LocalHostName "zeus"
+sudo scutil --set ComputerName "helios-m1"
+sudo scutil --set HostName "helios-m1"
+sudo scutil --set LocalHostName "helios-m1"
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "zeus"
 
 # Expand save panel by default
@@ -67,7 +67,7 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 defaults write -g ApplePressAndHoldEnabled -bool true
 
 # Set key repeat rate
-defaults write -g KeyRepeat -int 0.02
+defaults write -g KeyRepeat -int 1
 
 ##### Screen
 
