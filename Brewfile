@@ -65,4 +65,3 @@ cask "google-cloud-sdk"
 cask "karabiner-elements"
 cask "signal"
 cask "darktable" # NOTE: Rosetta needed.
-cask "insomnia"
