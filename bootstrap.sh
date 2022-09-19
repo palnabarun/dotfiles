@@ -12,7 +12,7 @@ do
     stow -v -R -t ~/.config/$CONFIG $CONFIG
 done
 
-for CONFIG in git tmux zshrc
+for CONFIG in git tmux zshrc spacemacs
 do
     stow -v -R -t ~ $CONFIG
 done
