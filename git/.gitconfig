@@ -14,7 +14,14 @@
     signoff = true
 
 [alias]
+    d = diff
+    dc = diff --cached
     c = commit -s
+    s = status
+    r = restore
+    rs = restore --staged
+    ck = checkout
+    ckb = checkout -b
 
 [http]
 	cookiefile = /home/nabarun/.gitcookies
@@ -34,3 +41,8 @@
 
 [diff]
     colorMoved = default
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
