@@ -16,52 +16,85 @@ brew "gnu-indent"
 brew "gnu-getopt"
 brew "grep"
 
-brew "zsh"
-brew "neovim"
-brew "tree"
+# http clients
+brew "curl"
 brew "wget"
-brew "python"
-brew "python3"
-brew "gnupg2"
-brew "pinentry-mac"
+brew "httpie"
+
+# editors
+brew "neovim"
+cask "visual-studio-code"
+
+# version control
 brew "git"
 brew "gh"
-brew "tmux"
-brew "mosh"
-brew "htop"
-brew "jq"
-brew "httpie"
-brew "curl"
+brew "svn" # needed for font-source-code-pro cask
+
+# languages
+brew "python"
+brew "python3"
 brew "rust"
 brew "node"
-brew "crane"
-brew "hugo"
+
+# gpg related
+brew "gnupg2"
+brew "pinentry-mac"
+brew "yubikey-personalization"
+brew "hopenpgp-tools"
+brew "ykman"
+brew "pinentry-mac"
+
+# containers/virtualization
 brew "kind"
 brew "lima"
 brew "cosign"
+brew "crane"
+cask "docker"
+cask "vmware-fusion"
+
+# terminal
+brew "zsh"
+brew "mosh"
+brew "tmux"
+cask "iterm2"
+cask "kitty"
+
+# others
+brew "tree"
+brew "htop"
+brew "jq"
+brew "yq"
+brew "hugo"
+
+# password/secrets
+brew "pass"
+brew "diceware"
+cask "1password"
+
+# communication
+cask "signal"
+cask "slack"
+cask "zoom"
+
+# keyboard/window management
+cask "karabiner-elements"
+cask "rectangle"
+
 
 # reattach-to-user-namespace
 
-# Install brew GUI packages
-cask "1password"
+# Install other brew GUI packages
 cask "spotify"
 cask "obsidian"
+cask "firefox-developer-edition"
+# cask "vscodium" ### DOESN'T HAVE DARWIN ARM64 PACKAGE
+# cask "alacritty" ### DOESN'T SUPPORT APPLE SILICON YET
+cask "google-cloud-sdk"
+cask "darktable" # NOTE: Rosetta needed.
+
+# fonts
 cask "font-inconsolata"
 cask "font-fontawesome"
 cask "font-fira-code"
 cask "font-caskaydia-cove-nerd-font"
-cask "iterm2"
-cask "slack"
-cask "docker"
-cask "rectangle"
-cask "firefox-developer-edition"
-cask "zoom"
-cask "vmware-fusion"
-# cask "vscodium" ### DOESN'T HAVE DARWIN ARM64 PACKAGE
-cask "visual-studio-code"
-# cask "alacritty" ### DOESN'T SUPPORT APPLE SILICON YET
-cask "kitty"
-cask "google-cloud-sdk"
-cask "karabiner-elements"
-cask "signal"
-cask "darktable" # NOTE: Rosetta needed.
+cask "font-source-code-pro" # requires svn
