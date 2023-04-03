@@ -9,6 +9,12 @@
     "[html]": {
         "editor.formatOnSave": false
     },
+    "[js]": {
+        "editor.tabSize": 2
+    },
+    "eslint.validate": [
+        "javascript"
+    ],
     "editor.formatOnPaste": true,
     "editor.fontFamily": "'CaskaydiaCove Nerd Font', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.definitionLinkOpensInPeek": true,
@@ -17,4 +23,10 @@
     "go.toolsManagement.autoUpdate": true,
     "keyboard.dispatch": "keyCode",
     "telemetry.telemetryLevel": "off",
+    "vsicons.dontShowNewVersionMessage": true,
+    "[markdown]": {
+        "editor.formatOnSave": false,
+    },
+    "window.zoomLevel": 3,
+    "editor.inlineSuggest.enabled": true
 }
