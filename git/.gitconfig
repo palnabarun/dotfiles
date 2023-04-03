@@ -1,7 +1,7 @@
 [user]
     name = Nabarun Pal
     email = pal.nabarun95@gmail.com
-    signingkey = 5766AE4828845256325BDA6E611D5079D826B150
+    signingkey = 0xD7FE02808704BEDD0F1F504645A20127D7D8C64D
 
 [commit]
     gpgsign = true
@@ -41,8 +41,12 @@
 
 [diff]
     colorMoved = default
+
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
