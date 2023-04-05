@@ -1,0 +1,6 @@
+[user]
+    name = Nabarun Pal
+    email = nabarunp@vmware.com
+
+[commit]
+    gpgsign = false
