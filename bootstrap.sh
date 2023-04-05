@@ -22,5 +22,8 @@ do
     stow -v -R -t ~/.config $CONFIG
 done
 
+mkdir -p ~/.ssh
 stow -v -R -t ~/.ssh ssh
+
+mkdir -p ~/.gnupg
 stow -v -R -t ~/.gnupg gnupg
