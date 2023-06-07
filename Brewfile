@@ -83,14 +83,17 @@ cask "rectangle"
 
 # reattach-to-user-namespace
 
+# PKM
+cask "obsidian"
+cask "todoist"
+
 # Install other brew GUI packages
 cask "spotify"
-cask "obsidian"
 cask "firefox-developer-edition"
 # cask "vscodium" ### DOESN'T HAVE DARWIN ARM64 PACKAGE
 # cask "alacritty" ### DOESN'T SUPPORT APPLE SILICON YET
 cask "google-cloud-sdk"
-cask "darktable" # NOTE: Rosetta needed.
+# cask "darktable" ### DOESN'T SUPPORT APPLE SILICON YET
 
 # fonts
 cask "font-inconsolata"
