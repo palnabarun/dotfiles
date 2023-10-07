@@ -51,5 +51,8 @@
 [url "ssh://git@github.com/"]
 	insteadOf = https://github.com/
 
-[includeIf "gitdir:~/c/vmware/"]
-path = .gitconfig-work
+[includeIf "gitdir:~/s/vmware/"]
+    path = .gitconfig-work
+
+[includeIf "gitdir:~/s/one-tanzu/"]
+  	path = .gitconfig-work
