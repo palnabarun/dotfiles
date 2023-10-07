@@ -1,11 +1,15 @@
+Include ~/.colima/ssh_config
+
 ServerAliveInterval 5
 
 Host github.com
   Hostname github.com
   IdentityFile ~/.ssh/palnabarun_ed
+  IdentityFile ~/.ssh/vmw_mbp_m1
   IdentitiesOnly Yes
 
 Host *
   IdentityFile ~/.ssh/palnabarun_ed
+  IdentityFile ~/.ssh/vmw_mbp_m1
   UseKeychain Yes
   AddKeysToAgent yes
