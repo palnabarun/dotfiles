@@ -54,3 +54,8 @@ npm install --global yarn
 # Install and setup plugins
 nvim --headless +PlugInstall +qa
 nvim --headless +GoInstallBinaries +qa
+
+# Setup tmux
+# download and initialize tmux plugin manager
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+~/.tmux/plugins/tpm/scripts/install_plugins.sh
