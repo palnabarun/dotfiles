@@ -18,7 +18,7 @@ export PROJECT_HOME=$CODE_HOME/palnabarun
 
 if [[ "$(uname)" == "Darwin" ]]; then
   # TODO: This needs to be properly done.
-  export PYTHONBINPATH=$HOME/Library/Python/3.9/bin
+  export PYTHONBINPATH=$HOME/Library/Python/3.11/bin
 elif [[ "$(uname)" == "Linux" ]]; then
   export PYTHONBINPATH=$HOME/.local/bin
 fi
