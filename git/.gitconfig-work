@@ -1,6 +1,7 @@
 [user]
     name = Nabarun Pal
     email = nabarunp@vmware.com
+    signingkey = 0xE8575874F991E5D7
 
 [commit]
-    gpgsign = false
+    gpgsign = true
