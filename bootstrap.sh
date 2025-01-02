@@ -6,18 +6,18 @@ then
     exit 1
 fi
 
-for CONFIG in karabiner kitty nvim zsh
+for CONFIG in kitty nvim zsh
 do
     mkdir -p ~/.config/$CONFIG
     stow -v -R -t ~/.config/$CONFIG $CONFIG
 done
 
-for CONFIG in git tmux zshrc spacemacs
+for CONFIG in git tmux zshrc # spacemacs
 do
     stow -v -R -t ~ $CONFIG
 done
 
-for CONFIG in starship
+for CONFIG in starship karabiner
 do
     stow -v -R -t ~/.config $CONFIG
 done

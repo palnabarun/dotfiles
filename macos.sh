@@ -6,6 +6,11 @@ sudo -v
 # Keep-alive: update existing `sudo` time stamp until `.macos` has finished
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
+# create code directory
+mkdir -p ~/s
+mkdir -p ~/s/palnabarun
+mkdir -p ~/s/kubernetes
+
 # Install xcode
 xcode-select --install
 
@@ -22,12 +27,13 @@ brew upgrade
 brew bundle
 
 # Install rust utilities
-cargo install starship
 cargo install exa
 cargo install bat
 cargo install ripgrep
 cargo install delta
 
+# TODO: (Check if already installed)
+# TODO: Fix this part
 # Setup ZSH and OhMyZSH
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
@@ -35,11 +41,6 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 git clone https://github.com/agkozak/zsh-z ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-z
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-
-# Install virtualenv and virtuelenvwrapper
-python3 -m pip install --user virtualenv virtualenvwrapper
-
-# Install Go through the graphic installer
 
 # Install VS Code extensions
 cat code/extensions.txt | xargs -L1 code --install-extension

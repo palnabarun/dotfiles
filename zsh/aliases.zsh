@@ -1,8 +1,3 @@
-# Editors
-alias e="emacs -nw"
-alias ev="emacs -q -nw"
-alias edwin="mit-scheme --edit"
-
 # Display switching
 if [[ "$(uname)" == "Linux" ]]; then
     alias mo="mons -o && $HOME/.config/polybar/launch.sh"
