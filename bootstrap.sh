@@ -6,7 +6,7 @@ then
     exit 1
 fi
 
-for CONFIG in kitty nvim zsh
+for CONFIG in kitty nvim zsh ghostty
 do
     mkdir -p ~/.config/$CONFIG
     stow -v -R -t ~/.config/$CONFIG $CONFIG
