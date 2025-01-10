@@ -17,7 +17,7 @@ window-save-state = always
 
 ## Split Navigation
 keybind = cmd+\=new_split:right
-keybind = cmd+-=new_split:down
+keybind = cmd+p=new_split:down
 
 keybind = cmd+left=goto_split:left
 keybind = cmd+down=goto_split:bottom
@@ -32,6 +32,9 @@ keybind = cmd+w=unbind
 
 # Global Terminal Toggle
 keybind = global:ctrl+grave_accent=toggle_quick_terminal
+
+# Clipboard
+clipboard-paste-protection = false
 
 # TODO
 # Enable Shift+Arrow key to select text - https://github.com/ghostty-org/ghostty/discussions/3142
